@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class ReverseLinkedList {
-    public ListNode reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode head) {
         // Length = 1
         if(head == null || head.next == null)
             return head;
